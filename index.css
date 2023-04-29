@@ -1,6 +1,5 @@
 body {
     position: relative;
-    height: 9604px;
     background: #000000;
 }
 
@@ -156,7 +155,6 @@ body {
 .main {
     max-width: 1160px;
     margin: 134px auto;
-    /* border: 1px solid #00ff62; */
 }
 
 /*-----------COBTENT BOX 1--------*/
@@ -165,6 +163,7 @@ body {
 .main__content-box-1 {
     max-width: 932px;
     margin: 0 auto;
+    margin-bottom: 862px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,9 +224,340 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #ffffff;
+} 
+
+/* ------INFORMATION BOX 1------ */
+
+.main__info-box-1 {
+    max-width: 1160px;
 }
 
 
+/* CONTECT BOX 1 */
+.info__box-content-1 {
+    max-width: 851px;
+    height: 136px;
+    margin-bottom: 90px;
+    color: #ffffff;
+}
+
+.content__text-1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.content__text-1-2 {
+    margin-top: 11px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+/* MEDIA CONTENT BOX */
+.info__box-media {
+    max-width: 1160px;
+}
+
+.media__2-units {
+    max-width: 1160px;
+    display: flex;
+}
+
+.media__2-units-plus {
+    max-width: 1160px;
+    display: flex;
+    margin-top: 126px;
+}
+
+.media__blok-1 {
+    width: 516px;
+    height: 420px;
+    color: #ffffff;
+    position: relative;
+}
+
+.medai__vidio-1 {
+    height: 292px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.blok__1-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 31px;
+}
+
+.blok__1-info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
+
+.media__blok-2 {
+    width: 516px;
+    height: 420px;
+    margin-top: 128px;
+    color: #ffffff;
+    margin-left: 128px;
+}
+
+.medai__vidio-2 {
+    height: 292px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.blok__2-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 31px;
+}
+
+.blok__2-info {
+    margin-top: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+}
+
+/* MEDIA CONTENT BOX 2 */
+
+.media__blok-3 {
+    width: 516px;
+    height: 420px;
+    color: #ffffff;
+}
+
+.medai__vidio-3 {
+    height: 292px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.blok__3-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 31px;
+}
+
+.blok__3-info {
+    margin-top: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+
+.media__blok-4 {
+    width: 516px;
+    height: 420px;
+    color: #ffffff;
+    margin-left: 128px;
+    margin-top: 129px;
+}
+
+
+.medai__vidio-4 {
+    height: 292px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.blok__4-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 31px;
+}
+
+.blok__4-info {
+    margin-top: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+/* 2 UNITS BLOK 3 */
+
+
+.media__2-units-plus-2 {
+    max-width: 1160px;
+    display: flex;
+    margin-top: 126px;
+}
+
+.media__blok-5 {
+    width: 516px;
+    height: 670px;
+    color: #ffffff;
+}
+
+.medai__vidio-5 {
+    width: 516px;
+    height: 516px;
+    border-radius: 20px;
+}
+
+.blok__5-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;;
+    margin-top: 32px;
+}
+
+.blok__5-info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 9px;
+}
+
+/* MEDIA BLOK 6 */
+
+.media__blok-6 {
+    width: 516px;
+    margin-left: 128px;
+    margin-top: 128px;
+    color: #ffffff;
+}
+
+.medai__vidio-6 {
+    width: 516px;
+    height: 516px;
+    border-radius: 20px;
+}
+
+.blok__6-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.blok__6-info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 9px;
+}
+
+
+
+
+
+/* CONTECT BOX 2 */
+.info__box-content-2 {
+    margin-top: 88px;
+    margin-left: 20px;
+    max-width: 1091px;
+    height: 126px;
+    color: #ffffff;
+    display: flex;
+}
+
+/* CONTENT BOX PART 1 */
+
+.content__part-1 {
+    width: 499px;
+}
+
+.zagolovok__part-1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #A37BF4;
+    background-color: rgba(98, 29, 237, 0.2);
+    width: 103px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.text__part-1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 9px;
+}
+
+.info__part-1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* CONTENT BOX PART 2 */
+
+.content__part-2 {
+    width: 499px;
+    margin-left: 145px;
+}
+
+.zagolovok__part-2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #A37BF4;
+    background-color: rgba(98, 29, 237, 0.2);
+    width: 103px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.text__part-2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 9px;
+}
+
+.info__part-2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 10px;
+}
 
 
 
@@ -252,6 +582,22 @@ body {
         background-color: #ffffff;
     } 
 
+    .text__part-1 {
+        color: #000000;
+    }
+
+    .info__part-1 {
+        color: #000000;
+    }
+
+    .text__part-2 {
+        color: #000000;
+    }
+
+    .info__part-2 {
+        color: #000000;
+    }
+
     /* HEADER */
     .logo__name {
         color: #000000;
@@ -269,6 +615,93 @@ body {
     .info__text{
         color: #000000;
     }
+
+    .header__logo {
+        margin-left: 5px
+    }
+
+    .info__box-content-1 {
+        color: #000000;
+        text-align: center;
+    }
+
+    .media__2-units {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .media__2-units-plus {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .media__2-units-plus-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blok__1-text {
+        color: #000000;
+    }
+
+    .blok__1-info {
+        color: #000000;
+    }
+
+    .blok__2-text {
+        color: #000000;
+    }
+
+    .blok__2-info {
+        color: #000000;
+    }
+
+    .blok__3-text {
+        color: #000000;
+    }
+
+    .blok__3-info {
+        color: #000000;
+    }
+
+    .blok__4-text {
+        color: #000000;
+    }
+
+    .blok__4-info {
+        color: #000000;
+    }
+
+    .blok__5-text {
+        color: #000000;
+    }
+
+    .blok__5-info {
+        color: #000000;
+    }
+
+    .blok__6-text {
+        color: #000000;
+    }
+
+    .blok__6-info {
+        color: #000000;
+    }
+
+    .media__blok-2 {
+        margin: 128px auto;
+        margin-bottom: 0;
+    }
+
+    .media__blok-4 {
+        margin: 128px auto;
+        margin-bottom: 0;
+    }
+
+    .media__blok-6 {
+        margin: 128px auto;
+        margin-bottom: 0;
+    }
 }
 
 /* -----ADAPTIV TO PHONE----- */
@@ -281,4 +714,6 @@ body {
     .header__burger-blok {
         display: block;
     }
+
+
 }
